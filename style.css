@@ -1,5 +1,6 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Frijole&display=swap"); */
-@import url("https://fonts.googleapis.com/css2?family=Fruktur&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Fruktur&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
 
 *,
 *::before,
@@ -7,69 +8,91 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Fruktur", cursive;
+  /* font-family: "Fruktur", cursive; */
+  font-family: "Rajdhani", sans-serif;
 }
-/* body {
+body {
   background-color: #000;
-} */
+}
 .container {
-  border: 2px solid #000;
-  width: 50vw;
+  border: 2px solid rgb(0, 0, 0);
+  width: 880px;
   height: 100vh;
   margin: 15px auto;
   /* background-image: url("./images/logo.jpg"); */
-  background-image: url("./images/background01.png");
+  /* background-image: url("./images/bcpic03.jpg");
+  /* background-image: url("./images/logo.jpg"); *
   background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.8;
+  background-size: cover; */
+  opacity: 0.9;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 50px 1fr 1fr 100px;
   gap: 10px;
   padding: 10px;
   box-sizing: border-box;
+  background: #141e30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .container div {
-  padding: 10px;
-  border: 1px solid #000;
+  padding: 5px;
+  border: 2px solid rgb(114, 207, 7);
 }
 .header {
   grid-column-start: 1;
   grid-column-end: 4;
-  background-color: #f4d03f;
-  background-image: linear-gradient(
-    132deg,
-    #f6df80 0%,
-    #16a01d 50%,
-    #cf330c 100%
-  );
-  font-size: 28px;
-  font-weight: lighter;
-
-  text-transform: capitalize;
-  text-shadow: 3px 3px 5px rgba(14, 1, 1);
-  letter-spacing: 5px;
-  color: rgb(255, 255, 255);
-  text-align: center;
+  background-image: linear-gradient(132deg, #1656a0 40%, #34b30e 80%);
   border-radius: 7px;
   box-shadow: 5px 5px 10px rgb(14, 1, 1);
+  height: 50px;
+  opacity: 0.9;
 }
-.title,
-.coming-soon {
-  margin-top: 2rem;
+.clubName {
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-shadow: 3px 3px 5px rgba(14, 1, 1);
+  letter-spacing: 10px;
+  color: rgb(255, 255, 255);
+  text-align: center;
 }
-.title {
+.title1,
+.date-time {
+  margin-top: 3.5rem;
+}
+.title1,
+.title2 {
   font-size: 40px;
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  font-weight: 600;
+  color: rgba(255, 72, 0, 0.918);
 }
-.coming-soon {
+.subtitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #f3f3f3;
+}
+.date-time {
   letter-spacing: 4px;
-  border: 1px solid black;
-  background-color: #fff;
-  border-radius: 30px;
-  width: 400px;
-  color: red;
-  font-weight: 200;
+  border: 1px solid rgb(255, 255, 255);
+  /* background-color: rgb(6, 57, 177); */
+  background-color: #000;
+  border-radius: 50px;
+  /* width: 250px; */
+  height: 40px;
+  color: rgb(229, 255, 0);
+  font-weight: 500;
+  font-size: 30px;
+  margin-top: 1rem;
 }
 .logo1 {
   width: 80px;
@@ -78,93 +101,91 @@
 .logo2 {
   width: 140px;
   height: 100px;
-  margin-left: 2.3rem;
+  margin-left: 60px;
 }
 
 .content-large {
   grid-row-start: 2;
   grid-row-end: span 1;
   grid-column-start: 1;
-  grid-column-end: 4;
-  font-size: 2rem;
-  color: rgb(19, 0, 0);
-  /* background-color: rgb(151, 78, 10); */
-  opacity: 0.8;
-  border-radius: 50%;
+  grid-column-end: 3;
+  opacity: 1;
+  border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(14, 1, 1);
   text-align: center;
-  background: #f12711; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #f5af19,
-    #f12711
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #f5af19,
-    #f12711
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #000;
 }
+
 .content-small {
-  opacity: 0.8;
+  opacity: 0.9;
   border-radius: 10px;
-  background: #f79d00; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #c4ddcb,
-    #f79d00
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #cedfd2,
-    #f79d00
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: rgba(0, 0, 0, 0.445);
 }
+
 li {
   list-style: none;
   margin: 5px;
   text-align: center;
-  font-size: 18px;
-  /* letter-spacing: 2px; */
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(114, 207, 7);
+  letter-spacing: 2px;
 }
-
+.register {
+  text-decoration: none;
+  background-color: rgba(255, 72, 0, 0.918);
+  /* background-color: rgb(114, 207, 7); */
+  border-radius: 50px;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  font-weight: 700;
+}
 h2 {
   text-decoration: underline;
   text-align: center;
   letter-spacing: 3px;
-  color: red;
+  color: rgb(255, 255, 255);
   font-size: 22px;
-  font-weight: 100;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+p {
+  /* color: #000; */
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 25px;
+  margin-top: 10px;
+  color: rgb(114, 207, 7);
+
+  letter-spacing: 3px;
+}
+.warning {
+  /* color: rgb(255, 0, 0);*/
+  color: #fff;
+  font-weight: 600;
+  text-transform: capitalize;
 }
 .footer {
   grid-column: 1 / span 3;
-  /* background-color: rgb(83, 129, 22); */
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  background-color: #f4d03f;
-  background-image: linear-gradient(
-    132deg,
-    #ffd21d 0%,
-    #1ea324 50%,
-    #e23509 100%
-  );
+  /* background-color: #f4d03f; */
+  background-image: linear-gradient(132deg, #34b30e 40%, #1656a0 70%);
   border-radius: 10px;
+  opacity: 0.8;
 }
 .contact,
 .bccb-logo,
 .social-media {
   border: none !important;
-}
-h4 {
-  font-size: 18px;
-  letter-spacing: 3px;
-  font-weight: 600;
-  color: #000;
-}
-p {
-  color: #fff;
-  letter-spacing: 3px;
 }
