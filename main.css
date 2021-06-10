@@ -12,15 +12,15 @@ body {
   font-family: "Luckiest Guy", cursive;
 }
 .container {
-  width: 780px;
-  height: 100%;
+  width: 800px;
+  height: 920px;
   margin: 10px auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 200px 1fr 1fr;
   gap: 20px;
   padding: 10px;
-  opacity: 0.9;
+  /* opacity: 0.9; */
   background-image: url("./images/bcpic4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,6 +45,7 @@ body {
   grid-row-start: 3;
   grid-row-end: 4;
   margin-top: 15px;
+  /* background-color: red; */
 }
 .content-awards {
   grid-column-start: 1;
@@ -64,26 +65,26 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 15px;
 }
 .type,
 .ten-years {
   width: 200px;
   height: 200px;
-  padding-top: 50px;
+  padding-top: 30px;
   text-align: center;
   /* background-color: #fff; */
   /* border: 2px solid green;
   border-radius: 50%; */
-  line-height: 30px;
+  line-height: 35px;
 }
 path {
   /* fill: #ff9800; */
   fill: transparent;
 }
 text {
-  fill: #18b418;
+  fill: #16bb16;
   font-size: 22px;
   font-weight: 500;
 }
@@ -97,7 +98,7 @@ h2 {
   letter-spacing: 2px;
 }
 li {
-  font-size: 16px;
+  font-size: 25px;
   letter-spacing: 3px;
   list-style: none;
   line-height: 30px;
@@ -108,9 +109,9 @@ li {
 p {
   text-align: center;
   color: #fff;
-  font-size: 20px;
+  font-size: 28px;
   letter-spacing: 3px;
-  color: #ff9800;
+  color: #ff7300;
 }
 .dateTime {
   color: #ff5e00;
