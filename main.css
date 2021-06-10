@@ -13,23 +13,26 @@ body {
 }
 .container {
   width: 800px;
-  height: 920px;
-  margin: 10px auto;
+  height: 100vh;
+  margin: 0px auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 200px 1fr 1fr;
+  grid-template-rows: 180px 1fr 1fr;
   gap: 20px;
-  padding: 10px;
+  padding: 3px;
   /* opacity: 0.9; */
-  background-image: url("./images/bcpic4.jpg");
+  background-image: url("./images/bcpic6.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .content-intro {
   grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
+  margin-top: 5px;
+  margin-left: 20px;
+  padding: 40px;
 }
 .content-large {
   /* background-color: #fff; */
@@ -37,22 +40,26 @@ body {
   grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 3;
+  z-index: 1;
+  margin-right: auto;
 }
 
 .content-logo {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  margin-top: 15px;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-top: 40px;
+  /* margin-right: 5px; */
   /* background-color: red; */
 }
 .content-awards {
   grid-column-start: 1;
-  grid-column-end: 2;
+  grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 4;
   margin-top: 15px;
+  margin-right: 28px;
 }
 .content-registration {
   grid-column-start: 3;
@@ -60,14 +67,15 @@ body {
   grid-row-start: 3;
   grid-row-end: 4;
   margin-top: 15px;
+  margin-right: 30px;
 }
-.subcontent {
+/* .subcontent {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
   padding: 15px;
-}
+} */
 .type,
 .ten-years {
   width: 200px;
@@ -90,8 +98,8 @@ text {
 }
 
 h2 {
-  color: #ff5e00;
-
+  /* color: #ff7300; */
+  color: #ff9800;
   text-align: center;
   font-size: 28px;
   font-weight: 100;
@@ -101,10 +109,10 @@ li {
   font-size: 25px;
   letter-spacing: 3px;
   list-style: none;
-  line-height: 30px;
+  line-height: 50px;
   text-align: center;
   /* color: #ff9800; */
-  /* color: #18b418; */
+  color: #18b418;
 }
 p {
   text-align: center;
@@ -114,5 +122,12 @@ p {
   color: #ff7300;
 }
 .dateTime {
+  /* color: #ff5e00; */
+  color: #18b418;
+  margin-right: auto;
+  font-size: 2rem;
+}
+.address {
   color: #ff5e00;
+  margin-left: 10px;
 }
