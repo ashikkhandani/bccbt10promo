@@ -21,13 +21,13 @@ body {
   gap: 20px;
   padding: 3px;
   /* opacity: 0.9; */
-  background-image: url("./images/bcpic6.jpg");
+  background-image: url("./images/background01.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .content-intro {
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 2;
   margin-top: 5px;
@@ -45,21 +45,21 @@ body {
 }
 
 .content-logo {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  margin-top: 40px;
-  /* margin-right: 5px; */
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  margin-top: 5px;
+  margin-right: 5px;
   /* background-color: red; */
 }
 .content-awards {
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 2;
   grid-row-start: 3;
   grid-row-end: 4;
-  margin-top: 15px;
-  margin-right: 28px;
+  /* margin-top: 15px;
+  margin-right: 28px; */
 }
 .content-registration {
   grid-column-start: 3;
@@ -69,13 +69,13 @@ body {
   margin-top: 15px;
   margin-right: 30px;
 }
-/* .subcontent {
+.subcontent {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 15px;
-} */
+}
 .type,
 .ten-years {
   width: 200px;
@@ -107,9 +107,9 @@ h2 {
 }
 li {
   font-size: 25px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   list-style: none;
-  line-height: 50px;
+  line-height: 40px;
   text-align: center;
   /* color: #ff9800; */
   color: #18b418;
