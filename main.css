@@ -1,50 +1,115 @@
 @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   background-color: #333;
   font-family: "Luckiest Guy", cursive;
 }
 .container {
-  width: 800px;
-  height: 100vh;
-  border: 2px solid #fff;
-  /* background-color: #fff; */
-  margin: 5px auto;
-  /* background-image: url("./images/bcpic8.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; */
+  width: 780px;
+  height: 100%;
+  margin: 10px auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 200px 1fr 1fr 50px;
-  gap: 10px;
+  grid-template-rows: 200px 1fr 1fr;
+  gap: 20px;
   padding: 10px;
-}
-
-.content-logo {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 2;
-  /* background-image: url("./images/logo.jpg");
+  opacity: 0.9;
+  background-image: url("./images/bcpic4.jpg");
   background-repeat: no-repeat;
-  background-size: cover; */
-  z-index: 1;
+  background-size: cover;
 }
 .content-intro {
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 2;
+}
+.content-large {
   /* background-color: #fff; */
-  z-index: 0;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.content-logo {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  margin-top: 15px;
+}
+.content-awards {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  margin-top: 15px;
+}
+.content-registration {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  margin-top: 15px;
+}
+.subcontent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 15px;
+}
+.type,
+.ten-years {
+  width: 200px;
+  height: 200px;
+  padding-top: 50px;
+  text-align: center;
+  /* background-color: #fff; */
+  border: 2px solid green;
+  border-radius: 50%;
+  line-height: 30px;
+  /* background-image: linear-gradient(132deg, #1656a0 40%, #34b30e 80%); */
 }
 path {
+  /* fill: #ff9800; */
   fill: transparent;
 }
 text {
-  fill: #ff9800;
+  /* fill: #ff9800; */
+  fill: #2a5298;
   font-size: 22px;
 }
-.dateTime {
+
+h2 {
+  /* color: #ff9800; */
+  color: #00c300;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+li {
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 3px;
+  list-style: none;
+  line-height: 30px;
+  text-align: center;
+  color: #ff9800;
+}
+p {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 3px;
   color: #ff9800;
 }
