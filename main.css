@@ -74,37 +74,36 @@ body {
   padding-top: 50px;
   text-align: center;
   /* background-color: #fff; */
-  border: 2px solid green;
-  border-radius: 50%;
+  /* border: 2px solid green;
+  border-radius: 50%; */
   line-height: 30px;
-  /* background-image: linear-gradient(132deg, #1656a0 40%, #34b30e 80%); */
 }
 path {
   /* fill: #ff9800; */
   fill: transparent;
 }
 text {
-  /* fill: #ff9800; */
-  fill: #2a5298;
+  fill: #18b418;
   font-size: 22px;
+  font-weight: 500;
 }
 
 h2 {
-  /* color: #ff9800; */
-  color: #00c300;
+  color: #ff5e00;
+
   text-align: center;
-  font-size: 25px;
+  font-size: 28px;
   font-weight: 100;
   letter-spacing: 2px;
 }
 li {
-  color: #fff;
   font-size: 16px;
   letter-spacing: 3px;
   list-style: none;
   line-height: 30px;
   text-align: center;
-  color: #ff9800;
+  /* color: #ff9800; */
+  /* color: #18b418; */
 }
 p {
   text-align: center;
@@ -112,4 +111,7 @@ p {
   font-size: 20px;
   letter-spacing: 3px;
   color: #ff9800;
+}
+.dateTime {
+  color: #ff5e00;
 }
