@@ -31,23 +31,13 @@ body {
   gap: 10px;
   padding: 10px;
   box-sizing: border-box;
-  background: #141e30; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #243b55,
-    #141e30
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #243b55,
-    #141e30
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: linear-gradient(132deg, #34b30e 40%, #1656a0 70%);
 }
 .container div {
   padding: 5px;
   border: 2px solid rgb(114, 207, 7);
 }
-.header {
+/* .header {
   grid-column-start: 1;
   grid-column-end: 4;
   background-image: linear-gradient(132deg, #1656a0 40%, #34b30e 80%);
@@ -55,7 +45,7 @@ body {
   box-shadow: 5px 5px 10px rgb(14, 1, 1);
   height: 50px;
   opacity: 0.9;
-}
+} */
 .clubName {
   font-size: 28px;
   font-weight: 700;
@@ -105,21 +95,26 @@ body {
 }
 
 .content-large {
-  grid-row-start: 2;
-  grid-row-end: span 1;
+  grid-row-start: 1;
+  grid-row-end: span 2;
   grid-column-start: 1;
   grid-column-end: 3;
   opacity: 1;
-  border-radius: 10px;
+  border-radius: 50px;
   box-shadow: 5px 5px 10px rgba(14, 1, 1);
   text-align: center;
-  background: #000;
+  background-image: linear-gradient(132deg, #34b30e 40%, #1656a0 70%);
 }
-
+/* .content-small1 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+} */
 .content-small {
   opacity: 0.9;
   border-radius: 10px;
-  background: rgba(0, 0, 0, 0.445);
+  /* background: rgba(0, 0, 0, 0.445); */
+  /* background-color: #fff; */
+  /* background-image: linear-gradient(132deg, #34b30e 40%, #1656a0 70%); */
 }
 
 li {
