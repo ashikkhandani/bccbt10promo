@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 body {
   background-color: #333;
@@ -60,7 +60,7 @@ body {
   grid-row-start: 3;
   grid-row-end: 4;
   margin-top: 55px;
-  /* margin-right: 28px; */
+  margin-left: 6px;
 }
 .content-registration {
   grid-column-start: 3;
